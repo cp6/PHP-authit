@@ -1,5 +1,5 @@
 # PHP-authit
-Simple PHP with MySQL account authentication to protect pages, includes an automatic creation via a form (`index.html`) and multiple methods of login protection.
+Simple PHP with MySQL account authentication to protect pages, includes an automatic creation via a form (`index.html`), file cleanup and multiple methods of login protection.
 
 ![Login page no captcha](https://raw.githubusercontent.com/cp6/PHP-authit/master/screens/login%20no%20captcha.png)
 
@@ -12,6 +12,8 @@ Simple PHP with MySQL account authentication to protect pages, includes an autom
 3. 5 wrong login attempts sees 10 minute cool down.
 
 4. Styled with Bootstrap 4.1.3
+
+5. Removes unwanted files depending on captcha on/off
 
 ## Who is this for?
 
