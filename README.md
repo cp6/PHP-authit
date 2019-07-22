@@ -1,7 +1,7 @@
 # PHP-authit
 Simple PHP with MySQL account authentication to protect pages, includes an automatic creation via a form (`index.html`) and multiple methods of login protection.
 
-![Login page no captcha](https://github.com/cp6/PHP-authit/blob/master/login no captcha.png)
+![Login page no captcha](https://raw.githubusercontent.com/cp6/PHP-authit/master/login%20no%20captcha.png)
 
 ## Features
 
@@ -37,17 +37,17 @@ To protect pages simply put at the start of the page:
 ob_start();
 session_start();
 if (!isset($_SESSION['user'])) {
-        //User not logged in
-        //do a redirect to login page (index.php)
-    } else {
-        //show page stuff
-    }
+    //User not logged in
+    //do a redirect to login page (index.php)
+} else {
+    //show page stuff
+}
 ```
 
 
 ### Screenshots
 
-![Login page](https://github.com/cp6/PHP-authit/blob/master/login.png)
-![No captcha submitted](https://github.com/cp6/PHP-authit/blob/master/login please enter captcha.png)
-![Captcha wrong](https://github.com/cp6/PHP-authit/blob/master/login captcha was incorrect.png)
-![Username or Password wrong](https://github.com/cp6/PHP-authit/blob/master/login user or pass incorrect.png)
+![Login page](https://raw.githubusercontent.com/cp6/PHP-authit/master/login.png)
+![No captcha submitted](https://raw.githubusercontent.com/cp6/PHP-authit/master/login%20please%20enter%20captcha.png)
+![Captcha wrong](https://raw.githubusercontent.com/cp6/PHP-authit/master/login%20captcha%20was%20incorrect.png)
+![Username or Password wrong](https://raw.githubusercontent.com/cp6/PHP-authit/master/login%20user%20or%20pass%20incorrect.png)
