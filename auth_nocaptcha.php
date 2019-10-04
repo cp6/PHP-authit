@@ -9,7 +9,6 @@ if (isset($_POST['username']) && isset($_POST['pass'])) {//Came here through the
     exit;
 }
 
-ob_start();
 session_start();
 $select = $db->prepare("SELECT `uid`, `username`, `password` FROM `users` WHERE `username` = :username;");
 $result = $select->fetch($select->execute(array(':username' => $username)));

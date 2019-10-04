@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <?php
 require_once('funcs.php');
-ob_start();
 session_start();
 if (!isset($_SESSION['user'])) {//User not successfully logged in
 $status_set = 0;
