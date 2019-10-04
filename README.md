@@ -36,7 +36,6 @@ Anyone that needs an easy to install/setup login system to protect web pages suc
 To protect pages simply put at the start of the page:
 
 ```php
-ob_start();
 session_start();
 if (!isset($_SESSION['user'])) {
     //User not logged in
